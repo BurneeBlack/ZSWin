@@ -1,0 +1,51 @@
+version "4.2.1"
+
+//
+// REQUIRED FILES
+//
+
+// Base
+#include "zscript/zswin/0_base/ZSWin_HandlerUtil.zs"
+#include "zscript/zswin/0_base/ZSWin_TextureUtil.zs"
+
+// Event System
+#include "zscript/zswin/1_event_system/ZSWES_0_Base.zs"
+#include "zscript/zswin/1_event_system/ZSWES_1_Debug.zs"
+#include "zscript/zswin/1_event_system/ZSWES_2_Native.zs"
+#include "zscript/zswin/1_event_system/ZSWES_3_Windows.zs"
+#include "zscript/zswin/1_event_system/ZSWES_4_Cursor.zs"
+#include "zscript/zswin/1_event_system/ZSWES_5_Special.zs"
+
+// Packet
+#include "zscript/zswin/2_packet/ZSWin_Packet_EventDataPacket.zs"
+#include "zscript/zswin/2_packet/ZSWin_Packet_EventPacket.zs"
+#include "zscript/zswin/2_packet/ZSWin_Packet_UIEventPacket.zs"
+#include "zscript/zswin/2_packet/ZSWin_Packet_WorldEventPacket.zs"
+
+// Object
+#include "zscript/zswin/3_object/ZSWin_Object_Base.zs"
+#include "zscript/zswin/3_object/ZSWin_Object_Window.zs"
+#include "zscript/zswin/3_object/ZSWin_Object_WindowBorder.zs"
+
+// Control
+#include "zscript/zswin/4_control/ZSWin_Control_Base.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_Button.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_ControlUtil.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_Dialog.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_Graphic.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_GroupBox.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_ShapeDrawer.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_Text.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_TextBox.zs"
+#include "zscript/zswin/4_control/ZSWin_Control_Timer.zs"
+
+
+//
+// OPTIONAL FILES
+//
+
+// Internal ZSWindows objects
+//#include "zscript/zswin/internal/ZSWin_Console.zs"
+#include "zscript/zswin/internal/ZSWin_CloseButton.zs"
+#include "zscript/zswin/internal/ZSWin_MoveButton.zs"
+#include "zscript/zswin/internal/ZSWin_ScaleButton.zs"

@@ -1,0 +1,7 @@
+
+build_versioner.txt
+npp_ZSWinSession
+*.png
+/zscript/zswin/test
+*.xcf
+README/ZSWin_Logo.jpg
